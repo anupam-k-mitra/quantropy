@@ -124,6 +124,7 @@ by the pipeline scripts and are also excluded from version control.
 | Benchmark | SPY | ^NSEI (Nifty 50) |
 | Train window | 504 $ days (2yr) | 756 $ days (3yr) |
 | Test window | 63 * days (qtr) | 63 * days (qtr) |
+
 $ Walk forward validation uses a 2 year rolling training window for US data stepped forward by a quarterly test window in each fold(yields 50 OOS test folds).
 * Walk forward validation uses a 3 year rolling training window for India data stepped forward by a quarterly test window in each fold(yields 40 OOS test folds).
 Rolling window ensures model parameters reflect prevailing market conditions rather than a long term average that might be obsolete. All 14+ years data are evaluated OOS.
