@@ -66,7 +66,7 @@ quantropy/
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/[your-username]/quantropy.git
+git clone https://github.com/anupam-k-mitra/quantropy.git
 cd quantropy
 pip install -r requirements.txt
 # or with conda:
